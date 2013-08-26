@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_background_color"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_normal"
+    android:paddingTop="@dimen/padding_normal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_normal"
+        android:layout_marginRight="@dimen/padding_normal"
+        android:background="@color/app_background_color"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/insufficient_space_title"
+            style="@style/st_txt_for_dailog_detail_heading_about"
+            android:text="@string/dlg_title_insufficient_space" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/insufficient_space_message"
+            style="@style/st_txt_for_dailog_detail_heading_about" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:layout_marginRight="@dimen/margin_normal"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/st_txt_for_dailog_detail_screen"
+                    android:text="@string/tv_size_of_download" />
+
+                <TextView
+                    style="@style/st_txt_for_dailog_detail_screen"
+                    android:text="@string/tv_available_space" />
+
+                <TextView
+                    style="@style/st_txt_for_dailog_detail_screen"
+                    android:text="@string/tv_required_space" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/st_txt_for_dailog_detail_screen"
+                    android:text="@string/tv_equal_sign" />
+
+                <TextView
+                    style="@style/st_txt_for_dailog_detail_screen"
+                    android:text="@string/tv_equal_sign" />
+
+                <TextView
+                    style="@style/st_txt_for_dailog_detail_screen"
+                    android:text="@string/tv_equal_sign" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/download_size"
+                    style="@style/st_txt_for_dailog_detail_screen" />
+
+                <TextView
+                    android:id="@+id/available_size"
+                    style="@style/st_txt_for_dailog_detail_screen" />
+
+                <TextView
+                    android:id="@+id/required_Size"
+                    style="@style/st_txt_for_dailog_detail_screen" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_normal"
+        android:layout_marginRight="@dimen/padding_normal"
+        android:background="@color/app_background_color"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/insufficient_space_ok_btn"
+            style="@style/st_btn_blue"
+            android:text="@string/btn_ok" />
+    </LinearLayout>
+
+</LinearLayout>

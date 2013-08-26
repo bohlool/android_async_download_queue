@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="button_top">5dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Fonts sizes -->
+    <dimen name="font_default">14sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="font_very_small">10sp</dimen>
+    <dimen name="font_normal">16sp</dimen>
+    <dimen name="font_large">18sp</dimen>
+    <dimen name="font_very_large">20sp</dimen>
+    <dimen name="font_extra_large">25sp</dimen>
+    <dimen name="font_very_extra_large">30sp</dimen>
+
+    <!-- Margins in DP -->
+    <dimen name="margin_normal">5dp</dimen>
+    <dimen name="margin_basic">1dp</dimen>
+    <dimen name="margin_st_btn_top_header_gry">2dp</dimen>
+    <dimen name="margin_basic_large">3dp</dimen>
+    <dimen name="margin_basic_very_large">4dp</dimen>
+    <dimen name="margin_large">10dp</dimen>
+    <dimen name="margin_large_extra">12dp</dimen>
+    <dimen name="margin_normal_large">7dp</dimen>
+    <dimen name="margin_very_very_large">15dp</dimen>
+    <dimen name="margin_extra_large">20dp</dimen>
+    <dimen name="line_dimenion">1dp</dimen>
+
+    <!-- Padding One DP -->
+    <dimen name="padding_normal">5dp</dimen>
+    <dimen name="padding_basic">1dp</dimen>
+    <dimen name="padding_basic_2dp">2dp</dimen>
+    <dimen name="padding_basic_large">3dp</dimen>
+    <dimen name="padding_basic_very_large">4dp</dimen>
+    <dimen name="padding_basic_very_large_8dp">8dp</dimen>
+    <dimen name="padding_basic_large_more">12dp</dimen>
+    <dimen name="padding_basic_large_max">12dp</dimen>
+    <dimen name="padding_audio_list_cell_btn_price_padding">12dp</dimen>
+    <dimen name="padding_large">10dp</dimen>
+    <dimen name="padding_login_item_top">35dp</dimen>
+    <dimen name="padding_player_bg_icon">60dp</dimen>
+
+    <!-- Height , Widht of views -->
+    <dimen name="audio_list_cell_thumb_width">50dp</dimen>
+    <dimen name="audio_list_cell_thumb_height">70dp</dimen>
+    <dimen name="list_row_icon_saved_height">25dp</dimen>
+    <dimen name="list_row_icon_saved_width">25dp</dimen>
+    <dimen name="list_row_icon_next_height">12dp</dimen>
+    <dimen name="list_row_icon_next_width">16dp</dimen>
+    <dimen name="doc_list_cell_thumb_width">45dp</dimen>
+    <dimen name="doc_list_cell_thumb_height">45dp</dimen>
+    <dimen name="doc_list_cell_height">55dp</dimen>
+    <dimen name="main_ui_tab_height">56dp</dimen>
+    <dimen name="photo_gallery_image_height">90dp</dimen>
+    <dimen name="photo_gallery_image_width">90dp</dimen>
+    <dimen name="photo_grid_image_height">100dp</dimen>
+    <dimen name="photo_grid_image_width">100dp</dimen>
+    <dimen name="photo_list_image_height">90dp</dimen>
+    <dimen name="photo_list_image_width">90dp</dimen>
+    <dimen name="photo_grid_horizental_spacing">5dp</dimen>
+    <dimen name="photo_grid_vertical_spacing">5dp</dimen>
+    <dimen name="photo_list_image_margin">20dp</dimen>
+    <dimen name="photo_gallery_sapces">10dp</dimen>
+    <dimen name="playlist_row_height">55dp</dimen>
+    <dimen name="playlist_row_thumb_height">30dp</dimen>
+    <dimen name="playlist_row_thumb_width">30dp</dimen>
+    <dimen name="search_ui_icon_heigth">20dp</dimen>
+    <dimen name="search_ui_icon_width">20dp</dimen>
+    <dimen name="ui_detail_audio_thum_icon_height">125dp</dimen>
+    <dimen name="ui_detail_audio_thum_icon_width">125dp</dimen>
+    <dimen name="ui_detail_document_thum_icon_height">100dp</dimen>
+    <dimen name="ui_detail_document_thum_icon_width">100dp</dimen>
+    <dimen name="ui_ltd_player_port_seekbar_height">18dp</dimen>
+    <dimen name="ui_ltd_player_volume_seekbar_length">150dp</dimen>
+    <dimen name="ui_video_audio_main_top_buttons_width">100dp</dimen>
+
+    <!-- Margin of views -->
+    <dimen name="audio_list_cell_thumb_margin">10dp</dimen>
+
+</resources>

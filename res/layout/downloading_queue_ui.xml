@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tlv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main_layout_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ui_dwonload_queue_heading_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:padding="@dimen/padding_basic_2dp"
+        android:paddingLeft="@dimen/padding_basic_very_large_8dp" >
+
+        <Button
+            android:id="@+id/ui_dwonload_queue_head_btn_edit_done"
+            style="@style/st_btn_gry_simple"
+            android:layout_alignParentRight="true"
+            android:text="@string/btn_edit" />
+
+        <TextView
+            android:id="@+id/ui_dwonload_queue_title_of_list"
+            style="@style/st_heading_for_detail_screen"
+            android:layout_width="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/ui_dwonload_queue_head_btn_edit_done"
+            android:gravity="left"
+            android:text="@string/tv_title_downloading_queue" />
+    </RelativeLayout>
+
+    <View style="@style/st_single_gray_line" />
+
+    <TextView
+        android:id="@+id/no_more_text"
+        style="@style/st_txt_no_item_found"
+        android:text="@string/header_error_msg_downloading_queue_no_item_found" />
+
+    <ScrollView
+        android:id="@+id/ui_dwonload_queue_item_list_in_progress_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbarAlwaysDrawVerticalTrack="true" >
+
+            <LinearLayout
+                android:id="@+id/ui_dwonload_queue_item_list_in_progress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <View
+                style="@style/st_single_gray_line"
+                android:layout_height="3dp" />
+
+            <com.example.downloadqueue.utils.TouchListView
+                android:id="@+id/ui_dwonload_queue_list_view_for_items"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/black"
+                android:dividerHeight="1dp"
+                android:drawSelectorOnTop="false"
+                tlv:expanded_height="100dp"
+                tlv:grabber="@+id/ui_downloading_queue_row_image_graber"
+                tlv:normal_height="100dp"
+                tlv:remove_mode="slideRight" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.example.downloadqueue.utils.TouchListView
+        android:id="@+id/ui_dwonload_queue_list_view_for_items_very_below"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/black"
+        android:dividerHeight="1dp"
+        android:drawSelectorOnTop="false"
+        android:visibility="gone"
+        tlv:expanded_height="100dp"
+        tlv:grabber="@+id/ui_downloading_queue_row_image_graber"
+        tlv:normal_height="100dp"
+        tlv:remove_mode="slideRight" />
+
+</LinearLayout>

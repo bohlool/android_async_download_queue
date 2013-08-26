@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dec_progress_holder"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/padding_normal"
+    android:background="@color/black"
+    android:stretchColumns="0" >
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/dec_txt_head"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_normal"
+            android:background="@color/transparent"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/padding_normal"
+            android:text="@string/msg_retrieving_from_secure_vault"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ProgressBar
+            android:id="@+id/dec_progress_bar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_normal" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/dec_txt_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_normal"
+            android:paddingLeft="@dimen/padding_normal"
+            android:paddingTop="@dimen/padding_normal"
+            android:text="0%"
+            android:textColor="@color/white" />
+    </TableRow>
+
+</TableLayout>

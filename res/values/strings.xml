@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DownloadQueue</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Message -->
+    <string name="msg_retrieving_from_secure_vault">Retrieving from secure vault …</string>
+    <string name="btn_ok">Ok</string>
+    <string name="dlg_title_no_option_selected">No option selected</string>
+    <string name="dlg_title_delete_incomplete_downloads">Delete Incomplete Downloads</string>
+    <string name="dlg_title_network_weak">Network Problem</string>
+    <string name="dlg_title_insufficient_space">Insufficient space</string>
+    <string name="tv_whats_new">What\'s New</string>
+    <string name="tv_size_of_download"> Size of Download</string>
+    <string name="tv_available_space"> Available space</string>
+    <string name="tv_required_space"> Additional required space</string>
+    <string name="tv_equal_sign">=</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_new">New</string>
+    <string name="btn_buy">Buy</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_add_to_playlist">Add to Playlist</string>
+    <string name="btn_done">Done</string>
+    <string name="btn_logout">Log out</string>
+    <string name="tv_title_downloading_queue">Download Queue</string>
+    <string name="header_error_msg_downloading_queue_no_item_found">Empty List</string>
+    <string name="dlg_title_error">Error</string>
+
+    <!-- Error Messages -->
+    <string name="error_msg_no_playlist_found">No playlist found. Please create a new playlist from \"More > Audio Playlists.\"</string>
+    <string name="error_msg_playlist_already_exists">Audio already added to Playlist</string>
+    <string name="error_msg_failed_to_insert_audi_in_playlist">Failed to add Audio in Playlist</string>
+    <string name="error_msg_failed_to_insert_playlist">Failed to add Playlist</string>
+    <string name="error_msg_playlist_already_exist_1">Playlist with the name</string>
+    <string name="error_msg_playlist_already_exist_2">already exists.</string>
+    <string name="error_msg_failed_to_delete_playlist">Failed to delete Playlist</string>
+    <string name="error_msg_must_contains_characters">Sorry, There must be some letters (a&#8211;z), numbers (0&#8211;9).</string>
+    <string name="error_msg_must_contains_characters_in">Sorry, There must be some letters (a&#8211;z), numbers (0&#8211;9) in </string>
+    <string name="error_msg_failed_to_delete_audio">Failed to delete Audio. Please try again later.</string>
+    <string name="error_msg_failed_to_delete_download_request">Failed to delete download request. Please try again later.</string>
+    <string name="error_msg_encountered_an_error">Encountered an error.</string>
+    <string name="error_msg_category_not_chosen">You did not choose any category to delete incomplete files.</string>
+    <string name="error_msg_streaming_not_allowed_for_playlist">Streaming is not allowed for playlist, please create a playlist which has at-least one saved Audio. </string>
+    <string name="error_msg_unable_to_perform_streaming_network_not_available">Network not reachable, player can\'t perform streaming</string>
+    <string name="error_msg_ltd_player_encountered_error">Media Player encountered an error. Please try again.</string>
+    <string name="error_msg_feedback_required">Feedback is required.</string>
+    <string name="error_msg_feedback_sending_failed">Cannot send feedback. Please try again at a later time.</string>
+    <string name="error_msg_no_item_found">There are no items to be shown.</string>
+    <string name="error_msg_transaction_failed">Sorry! Error processing your request. The transaction cannot be completed.</string>
+    <string name="error_msg_no_data_available">No data is available at the moment.</string>
+    <string name="error_msg_external_storage_not_available">External Storage is not available</string>
+    <string name="error_msg_external_storage_write_protected">External Storage is write protected</string>
+    <string name="error_msg_external_storage_insufficient_space">Sorry, there is not enough space available. Please delete some files to download.</string>
+    <string name="error_msg_external_storage_insufficient_space_vault">Sorry, there is not enough space available to retrieve data from secure vault.</string>
+    <string name="error_msg_pdf_reader_not_found">PDF reader is not found.</string>
+    <string name="error_msg_file_not_found_on_external_storage">Sorry, we are unable to locate the file.</string>
+    <string name="error_msg_unable_to_download">Unable to download media.</string>
+    <string name="error_msg_no_redeem_credit">Your purchase was not successful because you have redeemed all your credits.</string>
+    <string name="error_msg_could_not_login">Could not login. Please try again later.</string>
+    <string name="error_msg_invalid_server_response">Invalid server response. Please try again later.</string>
+    <string name="error_msg_invalid_ltdid_pass">Invalid LTDID or password</string>
+    <string name="error_msg_session_expired">Unable to connect with server. Session expired. Please logout and login again.</string>
+    <string name="error_msg_smugmug_session_expired">Smugmug session expired. Please try again later.</string>
+    <string name="error_msg_video_not_accessible">Sorry, you do not have access to videos.</string>
+    <string name="error_msg_username_or_password_empty">Missing username or password. Please enter and try again.</string>
+    <string name="error_msg_network_not_reachable">Signal strength low or no connectivity. Please try again when network coverage is better.</string>
+    <string name="error_msg_decryption_failed">Media is incompatible with our new Secure Vault. Please re-download.</string>
+    <string name="error_msg_unable_to_store_data">Error loading Data. Please \'Refresh\' from physical menu button of your handset. \n\nDo you want to Refresh Now?</string>
+    <string name="error_msg_no_response_from_server">No response from server.</string>
+    <string name="error_msg_invalid_response_from_server">Invalid response from server. Please try again later.</string>
+    <string name="error_msg_database_not_found">Database not found. Please restart application.</string>
+    <string name="error_msg_retrieving_credits">An error occurred while retrieving Audio Credits. Please try again.</string>
+    <string name="msg_s3_time_skew">Please verify device date/time is set correctly and try again.</string>
+
+</resources>

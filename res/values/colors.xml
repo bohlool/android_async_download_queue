@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_background_color">#4E78A0</color>
+    <color name="app_color_red">#C40808</color>
+    <color name="app_color_red_text">#A32C2C</color>
+    <color name="app_color_grey">#505050</color>
+    <color name="app_color_grey_light">#969696</color>
+    <color name="app_color_grey_very_light">#e0e0e0</color>
+    <color name="transparent">#00000000</color>
+    <color name="partial_transparent">#44000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="green">#23cf34</color>
+    <color name="orange">#E47833</color>
+    <color name="lite_blue">#4E78A0</color>
+    <color name="blue">#0000FF</color>
+
+    <!-- <color name="app_color_grey">#969696</color> -->
+    <!-- <color name="app_color_grey">#505050</color> -->
+
+
+    <!-- <color name="grey">#FF909090</color> -->
+    <!-- <color name="grey_dark">#747474</color> -->
+    <!-- <color name="grey_dark_more">#575757</color> -->
+    <!-- <color name="hyperlink">#236B8E</color> -->
+    <!-- <color name="greenStart">#ff33dd44</color> -->
+    <!-- <color name="greenMid">#ff0A8815</color> -->
+    <!-- <color name="greenEnd">#ff1da130</color> -->
+
+
+    <!-- name="app_background_color">#000000</color> -->
+    <!-- <color name="app_background_color_light">#4C7B8D</color> -->
+    <!-- <color name="red">#c40808</color> -->
+    <!-- <color name="maroon">#770202</color> -->
+    <!-- <color name="pureRed">#C80404</color> -->
+
+
+    <!-- <color name="grey_light">#e6e6e6</color> -->
+    <!-- D7D7D7 -->
+    <!-- <color name="twitter">#37B5EA</color> -->
+    <!-- <color name="very_light_grey">#D4D4D4</color> -->
+    <!-- <color name="light_transparent_color">#60000000</color> -->
+    <!-- <color name="light_grey">#7F7F7F</color> -->
+    <!-- <color name="normal_light_grey">#949494</color> -->
+    <!-- <color name="color_maron">#c40808</color> -->
+
+</resources>
